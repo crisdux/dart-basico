@@ -1,5 +1,5 @@
 main(){
-  var isTrue = true;
+  bool isTrue = true;
   print(isTrue);
   print(!isTrue);
 }
