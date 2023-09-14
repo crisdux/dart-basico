@@ -36,4 +36,5 @@ main() {
   // tambien funciona con arreglos 
   List<String> palabras= ["Hola", "mundo"];
   print(palabras.contains("Hola")); // true
+
 }
