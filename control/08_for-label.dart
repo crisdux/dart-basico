@@ -1,4 +1,5 @@
 main(){
+  // muy interesante poder ponerle nombres a los for, pero no se usa mucho al parecer
   forExterno:
   for(int i = 0; i<=10; i++){
     print("-> i: $i");
