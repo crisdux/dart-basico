@@ -12,11 +12,13 @@ main(){
   String saludar(String nombre) => "Hola $nombre";
   print(saludar("Cris"));
 
-  List<int> numeros = [1,2,3,4,5,6,7];
-  List<int> salida = numeros.where((item) => item>4 && item<6).toList();
+  List<int> numeros = [1,2,3];
+  List<int> salida = numeros.where((item) => item>5).toList();
   print(salida);
 
   // dado el siguiente arreglo, filtrarlo sin que hayan nombres repetidos y entregar el resultado en un arreglo
   List<String> nombres = ["Carlos", "Juan", "Pedro", "Juan", "Roberto", "Carlos"];
   print(nombres.toSet().toList());
+
+
 }
