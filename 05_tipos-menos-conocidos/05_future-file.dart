@@ -10,10 +10,13 @@ void main(List<String> args) {
   // salida.then((data) => print(data));
 
   getData()
-    .then((data) => print(data));
+    .then((data) => print(data))
+    .catchError((error) {
+    print("Ocurrió un error: $error");
+  });
+  
   print("final");
 
-  
 }
 
 Future<String>getData(){
