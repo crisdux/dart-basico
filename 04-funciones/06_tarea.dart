@@ -13,7 +13,7 @@ void main(List<String> args) {
     escribir('¿Cúal es su nombre?');
     String nombre = leer();
 
-    escribir('¿Qué edad tienes?');
+    escribir('¿Qué edad tienes?'); 
     String edad = leer();
 
     escribir('¿En qué país naciste?');
